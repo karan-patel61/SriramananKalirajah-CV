@@ -1,0 +1,47 @@
+html{
+    height: 100%;
+}
+body{
+    border: dotted;
+    border-color: transparent;
+    min-height: 100%;
+    background-image: linear-gradient( to bottom,#00027a, white);
+}
+.nav-bar{
+    margin-top: 1.6%;
+}
+.nav-link{
+    color: white;
+    border: solid 1px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: white;
+    margin: 0px 3px 0px 3px;
+}
+.active{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.container{
+    margin-top: 2%;
+}
+.col{
+    text-align: center;
+}
+.card{
+    margin-top: 10px;
+    text-align: center;
+}
+.card-body{
+    color: white;
+    background: rgba(61, 53, 64, 0.79);
+}
+.card-title{
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
